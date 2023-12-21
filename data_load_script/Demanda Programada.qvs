@@ -1,0 +1,20 @@
+///$tab Demanda Programada
+DEMANDA_PROGRAMADA:
+LOAD
+    %KEY_BLOQUE_FUENTE_VERSION,
+    %KEY_DICCIONARIO_BARRAS,
+    nombre_barra,
+    dem_pot,
+    unidad,
+    fecha_hora,
+    intervalo,
+    fuente,
+    fecha_version,
+    numero_version,
+    dem_ener,
+    per_pot,
+    per_ener,
+    bloque,
+    etapa,
+    hidro
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_DEMANDA_PROGRAMADA.qvd] (qvd);
